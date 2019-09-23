@@ -10,6 +10,7 @@ fi
 # PATH setup if needed
 export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 export PATH="/Users/srsantos/.gem/ruby/2.3.0/bin:/usr/local/opt/gmt@4/bin:/usr/local/opt/imagemagick@6/bin:/usr/local/edirect:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
+export PATH="/usr/local/sbin:$PATH"
 
 # History
 ##

@@ -8,6 +8,7 @@ export LESS="eMq"
 export LC_ALL=en_US.UTF-8
 export PAGER=vimpager
 export PATH="/Users/srsantos/.gem/ruby/2.3.0/bin:/usr/local/opt/gmt@4/bin:/usr/local/opt/imagemagick@6/bin:/usr/local/edirect:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
+export PATH="/usr/local/sbin:$PATH"
 export PLOTICUS_PREFABS="/usr/local/share/ploticus/prefabs"
 export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
 export GPG_TTY="${GPG_TTY:-$(tty 2>/dev/null)}"
