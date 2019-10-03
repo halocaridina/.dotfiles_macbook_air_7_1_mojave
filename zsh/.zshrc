@@ -60,6 +60,7 @@ alias l="ls -FGhl"
 alias htop="glances"
 alias update_brew="brew update && brew upgrade && brew cleanup -s"
 alias sshfs_mount="sshfs -C -o defer_permissions,reconnect,follow_symlinks,noappledouble -o cache=no -o volname=Remote_Share_via_SSHFS"
+### sshfs srsantos@ubuntu_server:/home/srsantos ~/tmp/mnt -o defer_permissions -o volname=Ubuntu_Server
 alias igmt="/usr/local/igmt_1.2/igmt"
 
 alias ws_2_underscore='for f in *\ *; do mv "$f" "${f// /_}"; done'
